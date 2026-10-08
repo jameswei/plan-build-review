@@ -16,7 +16,9 @@ or parent conversation.
 
 - In Codex, always call `spawn_agent` with `fork_turns="none"` — the default
   is `fork_turns="all"`, which inherits the entire parent conversation.
-- In Claude Code, use a normal non-fork custom subagent invocation.
+- In Claude Code, use a normal non-fork custom subagent invocation. Each
+  role's reasoning effort comes from its agent definition; do not pass the
+  Agent tool's `effort` parameter.
 
 Do not rely on or inherit parent conversation history. Give each role a short
 decision summary: project purpose, target user and deployment model, owner

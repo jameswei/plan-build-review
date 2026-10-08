@@ -86,6 +86,8 @@ cp ~/.codex/skills/plan-build-review/assets/agents/*.toml ~/.codex/agents/
 
 ### Claude Code
 
+需要 Claude Code 2.1.287 或更高版本，这样每个角色才会按其代理定义中设置的推理强度运行。
+
 将此仓库添加为插件市场，然后安装插件：
 
 ```text

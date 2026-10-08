@@ -126,6 +126,9 @@ install per-repository.)
 
 ### Claude Code
 
+Requires Claude Code 2.1.287 or later, so each role runs at the reasoning
+effort set in its agent definition.
+
 Add this repository as a plugin marketplace, then install the plugin:
 
 ```text

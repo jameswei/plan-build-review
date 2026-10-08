@@ -1,7 +1,7 @@
 {
   "name": "plan-build-review",
   "displayName": "Plan, Build, Review",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A gated, role-based workflow for scoped features and milestones through independent plan review, explicit approval, and task-level build/review checkpoints.",
   "author": { "name": "Jia Wei", "url": "https://github.com/jameswei" },
   "homepage": "https://lifeplayer.space/plan-build-review/",
